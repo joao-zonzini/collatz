@@ -1,8 +1,9 @@
 #!/usr/bin/python3
+# hist_collatz.py
+# compara os passos de valores aplicados ao problema de 3n+1
+# jaz 01/08/21
 
 import sys
-import subprocess as subp
-import numpy as np
 import matplotlib.pyplot as plt
 
 import utils.collatz as cltz
@@ -10,8 +11,6 @@ import utils.collatz as cltz
 if (len(sys.argv) < 2): ## se nao tiver os argumentos, para
     print("Erro! Falta o argumento.")
     exit(0)
-
-comando_programa = "./n_collatz "
 
 num_final = int(sys.argv[1])
 passos = []

@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+# collatz_plot.py
+# plota a trajetoria de um numero aplicado o problema 3n+1
+# jaz 01/08/21
 
+## importando bibliotecas
 import sys
 import matplotlib.pyplot as plt
 import utils.collatz as cltz
